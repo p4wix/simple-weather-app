@@ -1,0 +1,28 @@
+*::selection {
+	background-color: fuchsia;
+}
+
+.App {
+	text-align: center;
+	font-size: 24px;
+}
+
+.App input,
+.App button {
+	margin: 20px;
+	padding: 10px 20px;
+	border: 2px solid gray;
+	background-color: #fff;
+	transition: 0.2s;
+	font-size: 24px;
+}
+
+.App button {
+	cursor: pointer;
+}
+
+.App button:hover {
+	background-color: #000;
+	color: #fff;
+	border-color: #000;
+}
